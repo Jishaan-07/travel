@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar a{
+    color: black;
+}
+ .home{
+    background-image: url("https://wallpapers.com/images/hd/hiking-2518-x-1390-background-0dy141klqe014w1b.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+ }
+ #hometitle{
+ margin-left: 65%;
+  margin-top: 250px;
+  color: goldenrod;
+  line-height: 1.5;
+
+ }
+ #title1{
+    font-family: "Mochiy Pop One", sans-serif;
+    font-size: xxx-large;
+ }
+ #title2{
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+ }
+ #title3{
+    font-family: "Pacifico", cursive;
+    font-size: xxx-large;
+ }
+ #enqury{
+   margin-left: 50%;
+ }
+ #honeyhead{
+    margin-top: 50px;
+    text-align: center;
+ }
+ #carddays{
+    color: red;
+    text-align: center;
+ }
+ 
+ #hbutton{
+    background-color: rgb(61, 61, 204);
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+margin-left: 45%;
+padding: 10px;
+ }
+ #specialgead{
+    text-align: center;
+    margin-top: 50px;
+ }
+ #speimg{
+    width: 100%;
+margin-top: 20px;
+ }
+ #textimg{
+    margin-top: -300px;
+    text-align: center;
+    color: blue;
+    font-size: xxx-large;
+ }
+ #slide1txt{
+    color: blue;
+    font-size: xx-large;
+ }
+#youvdo{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#griimg{
+    width: 200px;
+}
+#img222{
+    margin-left: 180px;
+}
+.nithead{
+    text-align: center;
+    margin-top: 100px;
+}
+#ourhead{
+    text-align: center;
+    margin-top: 50px;
+}
+#oursubhead{
+    text-align: center;
+    color: red;
+    font-family: "Dancing Script", cursive;
+}
+ .frb{
+    text-align: center;
+ }
+  .loveenvo{
+    text-align: center;
+    margin-top: 50px;
+  }
+ .loveenvolop{
+color: red;
+font-family: "Pacifico", "cursive";
+text-align: center;
+  }
+.foot{
+    margin-top: 50px;
+    background-color: rgb(5, 5, 89);
+    width: 100%;
+    height: 250px;
+}
+#footabout{
+    color: gold;
+    font-family: "Bebas Neue", sans-serif;
+ padding-top: 50px;
+}
+#ourcomapany{
+    color: white;
+    font-size: small;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+ @media(max-width:992px){
+    #hometitle{
+        display: none;
+    }
+    #footimageworld{
+        display: block;
+    }
+ }
